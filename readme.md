@@ -8,14 +8,11 @@ This Codecademy JavaScript portfolio project generates random and silly messages
 - [Sources](#sources)
 
 ## Introduction
-Mixed Messages is a web app that sends random financial advice, biblical quotes, shower thoughts, headlines, and more! The JavaScript based project is based from Codecademy's Full-Stack Engineer career path, and is meant to be a JavaScript portfolio project.
+Mixed Messages is a JavaScript app that sends random financial advice, biblical quotes, shower thoughts, headlines, and more! The JavaScript based project is based from Codecademy's Full-Stack Engineer career path, and is meant to be a JavaScript portfolio project.
 
 ## Technologies
 Project is created with: 
 - JavaScript
-- React.js (coming soon)
-- HTML (coming soon)
-- CSS (coming soon)
 
 ## Launch
 To run this project, clone the source code and run it with [Node.js](https://nodejs.org/en/download/). If you have [node](https://nodejs.org/en/download/) installed, type the command `node script.js` into your terminal once the file is downloaded. 
