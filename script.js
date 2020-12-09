@@ -32,4 +32,18 @@ const messageOne = randomizeData();
 const messageTwo = randomizeData();
 const messageThree = randomizeData();
 
-console.log(`${messageOne}\n\n${messageTwo}\n\n${messageThree}`);
+
+let overviewButton = document.getElementById('overview-button');
+let overviewTitle = document.getElementById('overview-title');
+let mainContent = document.getElementById('main');
+
+mainContent.hidden = true;
+
+overviewButton.onclick = function() {
+    overviewButton.hidden = true;
+    overviewTitle.hidden = true;
+
+    mainContent.hidden = false;
+}
+
+
