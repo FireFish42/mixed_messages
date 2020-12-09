@@ -17,7 +17,7 @@ Project is created with:
 - CSS 
 
 ## Launch
-Run the link in any javascript enabled browser!
+Click [this link](https://firefish42.github.io/mixed_messages/)!
 
 ## Sources
 This app is based off the [Codecademy Pro](https://www.codecademy.com/) Full-Stack Engineer career path. This project is meant as a JavaScript capstone project, putting together use of GitHub, markdown, Visual Studio Code, and JavaScript.
