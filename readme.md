@@ -13,11 +13,11 @@ Mixed Messages is a JavaScript app that sends random financial advice, biblical 
 ## Technologies
 Project is created with: 
 - JavaScript
+- HTML 
+- CSS 
 
 ## Launch
-To run this project, clone the source code and run it with [Node.js](https://nodejs.org/en/download/). If you have [node](https://nodejs.org/en/download/) installed, type the command `node script.js` into your terminal once the file is downloaded. 
-
-If you need to install [node](https://nodejs.org/en/download/), click on the links provided.
+Run the link in any javascript enabled browser!
 
 ## Sources
 This app is based off the [Codecademy Pro](https://www.codecademy.com/) Full-Stack Engineer career path. This project is meant as a JavaScript capstone project, putting together use of GitHub, markdown, Visual Studio Code, and JavaScript.
