@@ -15,15 +15,15 @@ const randomizeData = () => {
     const category = Math.floor(Math.random() * 5);
     const rand = Math.floor(Math.random() * 10);
     if (category === 0) {
-        return 'Your shower thought of the day: \n' + shower_thought[rand];
+        return '<h2>Your shower thought of the day: </h2><br>\n' + shower_thought[rand];
     } else if (category === 1) {
-        return 'Your financial advice for the day: \n' + financial[rand];
+        return '<h2>Your financial advice for the day: </h2><br>\n' + financial[rand];
     } else if (category === 2) {
-        return 'Your bible scripture for the day: \n' + biblical[rand];
+        return '<h2>Your bible scripture for the day: </h2><br>\n' + biblical[rand];
     } else if (category === 3) {
-        return 'Your shakespeare monologue for the day: \n' + shakespeare[rand];
+        return '<h2>Your shakespeare monologue for the day: </h2><br>\n' + shakespeare[rand];
     } else {
-        return 'Recommended headlines for you: \n' + headline[rand];
+        return '<h2>Recommended headlines for you: </h2><br>\n' + headline[rand];
     }
 };
 
@@ -37,6 +37,10 @@ let overviewButton = document.getElementById('overview-button');
 let overviewTitle = document.getElementById('overview-title');
 let mainContent = document.getElementById('main');
 
+let container1 = document.getElementById('1');
+let container2 = document.getElementById('2');
+let container3 = document.getElementById('3');
+
 mainContent.hidden = true;
 
 overviewButton.onclick = function() {
@@ -44,6 +48,12 @@ overviewButton.onclick = function() {
     overviewTitle.hidden = true;
 
     mainContent.hidden = false;
+
+    container1.innerHTML = messageOne;
+    container2.innerHTML = messageTwo;
+    container3.innerHTML = messageThree;
 }
 
-
+document.getElementById('reload').onclick = function() {
+    location.reload();
+}
